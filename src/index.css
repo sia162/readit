@@ -5,11 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #553055;
+  background: #051134;
 }
 
 .App {
-  background: #4c2a4c;
+  background: #141f4e;
   margin: 20px auto;
   width: 90%;
   color: #eee;
@@ -19,7 +19,7 @@ body {
 .navbar {
   padding: 10px 20px;
   text-align: center;
-  background: #6d3d6d;
+  background: #505e91;
 }
 
 .navbar p {
@@ -40,7 +40,7 @@ body {
 }
 
 .book-list li {
-  background: #6d3d6d;
+  background: #505e91;
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;
@@ -77,12 +77,12 @@ body {
 
 .done-books p {
   font-weight: bold;
-  color: #3c1f3c;
+  color: #051134;
   font-size: 1.2em;
 }
 
 .done-books p:hover {
-  color: #854b85;
+  color: #091d67;
 }
 
 form {
@@ -94,9 +94,11 @@ input[type="text"] {
   padding: 10px;
   box-sizing: border-box;
   margin: 6px 0px;
-  background: #3c1f3c;
+  background: #030f31;
   color: #fff;
   border: 0;
+  font-size: 15px;
+  outline: none;
 }
 
 input[type="submit"] {
@@ -105,4 +107,9 @@ input[type="submit"] {
   border: 0;
   padding: 6px 20px;
   display: block;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover {
+  background: #b7c0e0;
 }
