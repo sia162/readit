@@ -22,6 +22,10 @@ body {
   background: #6d3d6d;
 }
 
+.navbar p {
+  margin: 7px 0px;
+}
+
 .nav h1 {
   margin: 10px 0;
 }
@@ -64,3 +68,41 @@ body {
   text-align: center;
 }
 
+.done-books {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+  cursor: pointer;
+}
+
+.done-books p {
+  font-weight: bold;
+  color: #3c1f3c;
+  font-size: 1.2em;
+}
+
+.done-books p:hover {
+  color: #854b85;
+}
+
+form {
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0px;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+}
+
+input[type="submit"] {
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+}

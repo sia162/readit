@@ -8,6 +8,11 @@ const Navbar = () => {
     <div className="navbar">
       <h1>read it.</h1>
       <p>total {books.length} books.</p>
+      
+      <div className="done-books">
+        <p> finished books.</p>
+        <p> dnfed books.</p>
+      </div>
     </div>
   );
 };
